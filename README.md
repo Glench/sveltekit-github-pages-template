@@ -1,5 +1,38 @@
-# SvelteKit Github Pages Template
+# create-svelte
 
-A template for easily deploying a SvelteKit site on Github Pages. See the guide here for more info: [How to Deploy SvelteKit Apps on Github Pages](https://sveltesaas.com/articles/sveltekit-github-pages-guide)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Once you've cloned this repository, go to the Github repository Settings page and turn on Github Pages for the `/docs` folder in the `main` branch.
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
